@@ -1,10 +1,8 @@
 <template>
     <div>
         <div class="sticky top-0 z-50">
-            <div class="py-52 py-10 rotate-180 top-[100px]">
-                <img :src="FooterBanner2" alt="footer-banner2" class="absolute bottom-5 right-0 w-full h-auto">
-                <img :src="FooterBanner3" alt="footer-banner3" class="absolute bottom-0 right-0 w-full h-auto">
-                <img :src="FooterBanner1" alt="footer-banner1" class="absolute -bottom-1 left-0 w-full h-auto">
+            <div>
+                <img :src="Tirai" alt="header" class="w-full fixed-top z-50">
             </div>
         </div>
         <div class="text-wrapper">
@@ -84,7 +82,7 @@
 </template>
 
 <script>
-// import Tirai from '../assets/tirai.webp';
+import Tirai from '../assets/tirai.webp';
 import Image1 from '../assets/photo-wedding/edit/photo-utama.jpg';
 import Wayang1 from '../assets/wayang1.webp';
 import Wayang2 from '../assets/wayang2.webp';
@@ -102,7 +100,7 @@ export default{
 
     data() {
         return {
-            // Tirai,
+            Tirai,
             Wayang1,
             Wayang2,
             Image1,

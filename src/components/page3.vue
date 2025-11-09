@@ -79,7 +79,7 @@
 import FooterBanner1 from '../assets/footer-banner1.webp';
 import FooterBanner2 from '../assets/footer-banner2.webp';
 import FooterBanner3 from '../assets/footer-banner3.webp';
-import VideoMp4 from '../assets/wedding-video.mp4';
+// import VideoMp4 from '../assets/wedding-video.mp4';
 import Image1 from '../assets/photo-wedding/edit/ijab-kobul.jpg';
 import Image2 from '../assets/photo-wedding/edit/photo-hiburan.jpg';
 import Image3 from '../assets/photo-wedding/edit/unduhmantu.jpg';
