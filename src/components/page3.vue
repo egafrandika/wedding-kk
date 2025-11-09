@@ -97,7 +97,7 @@ export default {
             Image2,
             Image3,
             PohonWayang,
-            VideoMp4,
+            // VideoMp4,
             items: [
                 {
                     title1: 'Ijab Qabul',
