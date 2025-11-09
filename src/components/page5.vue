@@ -13,7 +13,7 @@
                             <h1 class="text-[23px] font-serif">{{ gift.title}}</h1>
                         </div>
                         <div class="py-8 px-2 text-[16px]">
-                            <span class="font-base-wedding">{{ gift.dataAddress }}</span>
+                            <span class="font-serif">{{ gift.dataAddress }}</span>
                         </div>
                     <div class="bg-[#442B1B] w-fit mx-auto rounded-lg px-4 h-fit shadow-lg cursor-pointer hover:bg-[#C38154] hover:text-black text-white" data-modal-target="popup-modal" data-modal-toggle="popup-modal"
                         @click="openModal"
@@ -44,9 +44,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h1 class="text-lg font-base-wedding text-gray-900 pb-4">Sidobasuki, RT/RW 021/011, Desa Bumi Agung, Kec. Tegineneng, Pesawaran, Lampung.</h1>
+                                        <h1 class="text-lg font-base-wedding text-gray-900 pb-4">Jl.dusun 3,RT.11/RW.06, banjar lehan, bumi agung, Lampung timur.</h1>
                                         <button 
-                                            @click="copyToClipboard('Sidobasuki, RT/RW 021/011, Desa Bumi Agung, Kec. Tegineneng , Pesawaran, Lampung')"
+                                            @click="copyToClipboard('Jl.dusun 3,RT.11/RW.06, banjar lehan, bumi agung, Lampung timur')"
                                             type="button" 
                                             class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-lg inline-flex items-center px-5 py-2.5 text-center mr-2"
                                         >
@@ -75,7 +75,7 @@
                 </div>
                 <div v-motion-slide-visible-left class="text-center pt-20 font-base-wedding text-[20px] w-[300px] mx-auto">
                     <span>Konfirmasi Kehadiran Anda di Acara Pernikahan</span>
-                    <h1 v-motion-slide-visible-right class="font-second-wedding text-[50px] py-2">Ega & Dika</h1>
+                    <h1 v-motion-slide-visible-right class="font-second-wedding text-[50px] py-2">Kurniasih & Kandar</h1>
                 </div>
                 <div v-motion-pop-visible class="w-full max-sm:max-w-xs max-w-xl mx-auto">
                     <form id="mySubmitionForm" class="bg-[#442B1B] shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -131,7 +131,7 @@
                 </div>
                 <div class="text-center pt-10 font-base-wedding text-[20px] w-[300px] mx-auto">
                     <p v-motion-slide-visible-left>Ucapan Selamat & Doa untuk</p>
-                    <h1 v-motion-slide-visible-right class="font-second-wedding text-[50px] py-2">Ega & Dika</h1>
+                    <h1 v-motion-slide-visible-right class="font-second-wedding text-[50px] py-2">Kurniasih & Kandar</h1>
                 </div>
                 <div v-motion-pop-visible class="w-full max-sm:max-w-xs max-w-xl mx-auto">
                     <form class="bg-[#b57d5b] shadow-md rounded px-8 pt-6 pb-8 md:mb-48 sm:mb-40 max-sm:mb-20" id="myForm">
@@ -285,7 +285,7 @@ export default {
             FooterBanner3,
             FooterBanner2,
             FooterBanner1,
-            googleSource: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d496.6930356973872!2d105.1847376!3d-5.1767408!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40b73a3809a7d9%3A0xf5f4af50f81bbcaf!2sPaud%20Annisa!5e0!3m2!1sen!2sid!4v1688611002832!5m2!1sen!2si',
+            googleSource: 'https://www.google.com/maps/place//@-5.1067025,105.556799,19.58z/data=!4m6!1m5!3m4!2zNcKwMDYnMjQuMiJTIDEwNcKwMzMnMjMuMiJF!8m2!3d-5.1067222!4d105.5564444?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D',
             pohonWayang1: 'https://www.kunika.id/wp-content/uploads/2023/02/Relik.png',
             profile: 'https://www.kunika.id/wp-content/uploads/2023/01/Your-paragraph-text.jpg',
             images: [
@@ -302,7 +302,7 @@ export default {
                     title: 'Alamat Kirim Hadiah',
                     copyAddress: 'copy alamat',
                     kirimHadiah: 'Kirim Hadiah',
-                    dataAddress: 'Sidobasuki, RT/RW 021/011, Desa Bumi Agung, Kec. Tegineneng , Pesawaran, Lampung.'
+                    dataAddress: 'Jl.dusun 3,RT.11/RW.06, banjar lehan, bumi agung, Lampung timur.'
                 }
             ],
             alertMessage: "",

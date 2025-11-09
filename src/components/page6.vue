@@ -8,7 +8,7 @@
                 <h1 v-motion-slide-visible-bottom class="font-four-wedding py-10 text-lg">Besar harapan kami Bapak/Ibu dapat menghadiri acara pernikahan kami</h1>
                 <img v-motion-pop-visible :src="Image1" alt="image.page6" class="rounded-full border-[10px] border-[#442B1B]">
                 <h1 v-motion-slide-visible-right class="pt-10 font-base-wedding">Hormat Kami</h1>
-                <h1 v-motion-slide-visible-left class="py-2 text-[40px] font-four-wedding">Dika & Ega</h1>
+                <h1 v-motion-slide-visible-left class="py-7 text-[34px] font-four-wedding">Kurniasih & Kandar</h1>
                 <p v-motion-slide-visible-right class="py-10 font-base-wedding">The next Ramashinta</p>
                 <img v-motion
                     :initial="{x: 5, y: 5}"
@@ -17,7 +17,7 @@
                 />
                 <div class="pt-40 max-sm:pt-8 font-base-wedding">
                     <h1 v-motion-slide-visible-left class="w-29 pb-3 mx-auto">Undangan ini dibuat oleh:</h1>
-                    <p v-motion-slide-visible-right class="font-four-wedding">Ega Frandika & Tri Ega Septiana</p>
+                    <p v-motion-slide-visible-right class="font-four-wedding">Kurniasih & Muhammad Sukandar</p>
                 </div>
                 <div v-motion-pop-visible class="bg-[#442B1B] w-fit p-2 rounded-full mx-auto mt-10 mb-4 cursor-pointer" @click="onTop">
                     <v-icon name="md-keyboardarrowup" animation="float" scale="1.5" fill="white"/>

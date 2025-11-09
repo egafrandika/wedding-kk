@@ -5,13 +5,13 @@
             <h1 class="text-[#ddcaca] text-center pt-2">{{ text.babel }}</h1>
             <span class="text-[#ddcaca] text-center w-[200px] max-sm:text-[10px] leading-3">{{ text.description }}</span>
         </div>
-        <h1 v-motion-slide-visible-bottom class="text-[#ddcaca] font-serif text-center text-[40px] pb-9 pt-2">The Bride</h1>
+        <h1 v-motion-slide-visible-bottom class="text-[#ddcaca] font-serif text-center text-[40px] pb-9 pt-20">Mempelai Wanita</h1>
         <div class="flex flex-row justify-center pl-6">
             <div v-motion-slide-visible-left class="border-[#C38154] border-[10px] max-w-[200px] h-[330px] max-sm:w-[340px] rounded-[200px] bg-origin-content shadow-lg shadow-slate-800">
                 <img :src="Image1" alt="image1" class="object-cover h-full w-full rounded-[200px]">
             </div>
             <div class="flex flex-col justify-items-end text-[#ddcaca] pl-6 pr-6" v-for="item in Girl">
-                <h1 v-motion-slide-visible-right class="font-second-wedding text-[60px] text-right">Ega</h1>
+                <h1 v-motion-slide-visible-right class="font-second-wedding text-[60px] text-right">Kurniasih</h1>
                 <h1 v-motion-slide-visible-right class="text-[10px] text-right mb-2">{{ item.girlTitle }}</h1>
                 <div v-motion-slide-visible-right class="flex flex-col text-[15px] font-base-wedding text-right max-w-xs">
                     <span class="pb-2">{{ item.desc }}</span>
@@ -23,23 +23,23 @@
                             <v-icon name="ri-double-quotes-l" animation="ring" scale="0.5" fill="white"/>
                                 {{ item.text }}
                             <v-icon name="ri-double-quotes-r" animation="ring" scale="0.5" fill="white"/>
-                        <h2 class="text-right"> - Ega</h2>
+                        <h2 class="text-right"> - Kurniasih</h2>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="pt-9 pb-9 flex space-x-2 overflow-auto snap-mandatory snap-x px-6">
+        <!-- <div class="pt-9 pb-9 flex space-x-2 overflow-auto snap-mandatory snap-x px-6">
             <div v-for="img in GirlImages" class="flex-shrink-0 snap-center">
                 <img :src="img" class="w-[330px] h-[200px] rounded-md object-cover"/>
             </div>
-        </div>
-        <h1 v-motion-slide-visible-bottom class="text-[#ddcaca] font-serif text-center text-[40px] pt-9 pb-9">The Groom</h1>
-        <div class="flex flex-row-reverse justify-center pr-6">
+        </div> -->
+        <h1 v-motion-slide-visible-bottom class="text-[#ddcaca] font-serif text-center text-[40px] pt-20 pb-9">Mempelai Pria</h1>
+        <div class="flex flex-row-reverse justify-center pr-6 pb-10">
             <div v-motion-slide-visible-right class="border-[#C38154] border-[10px] max-w-[200px] h-[330px] max-sm:w-[340px] rounded-[200px] bg-origin-content shadow-lg shadow-slate-800">
                 <img :src="Image4" alt="image1" class="object-cover h-full w-full rounded-[200px]">
             </div>
             <div class="flex flex-col justify-items-end text-[#ddcaca] px-6" v-for="item in Man">
-                <h1 v-motion-slide-visible-right class="text-start font-second-wedding text-[60px]">Dika</h1>
+                <h1 v-motion-slide-visible-right class="text-start font-second-wedding text-[60px]">Kandar</h1>
                 <h1 v-motion-slide-visible-left class="text-start text-[10px] mb-2">{{ item.manTitle }}</h1>
                 <div v-motion-slide-visible-left class="flex flex-col text-[15px] font-base-wedding max-w-xs">
                     <span class="pb-2">{{ item.desc }}</span>
@@ -51,16 +51,16 @@
                             <v-icon name="ri-double-quotes-l" animation="ring" scale="0.5" fill="white"/>
                             {{ item.text }}
                             <v-icon name="ri-double-quotes-r" animation="ring" scale="0.5" fill="white"/>
-                        <h2 class="text-left"> - Dika</h2>
+                        <h2 class="text-left"> - Kandar</h2>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="pt-9 pb-[50px] flex space-x-2 overflow-x-auto snap-mandatory snap-x px-6">
+        <!-- <div class="pt-9 pb-[50px] flex space-x-2 overflow-x-auto snap-mandatory snap-x px-6">
             <div v-for="img in ManImages" class="flex-shrink-0 snap-center">
                 <img :src="img" class="w-[330px] h-[200px] rounded-md object-cover"/>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -95,18 +95,18 @@ export default {
             ],
             Man: [
                 {
-                    manTitle: 'Ega Frandika B.Sc.IT',
-                    desc: 'Putra ketiga Bpk Sutarman & Ibu Suharyani',
+                    manTitle: 'Muhammad Sukandar S.PD',
+                    desc: 'Putra bungsu bapak pornomo & ibu hanisah (Mak isah)',
                     media: 'instagram',
-                    text: 'Doakan agar menjadi keluarga sakinah mawadah maromah'
+                    text: 'Mohon doa restu agar rumah tangga kami senantiasa dipenuhi cinta dan keberkahan.'
                 }
             ],
             Girl: [
                 {
-                    girlTitle: 'Tri Ega Septiana S.Kep., Ners',
-                    desc: 'Putri ketiga Bpk Sukadana & Ibu Sugiati',
+                    girlTitle: 'Kurniasih',
+                    desc: 'Putri pertama bapak Wahyudi & ibu Siti romlah',
                     media: 'instagram',
-                    text: 'Doakan agar menjadi keluarga sakinah mawadah maromah'
+                    text: 'Doakan kami agar menjadi keluarga yang harmonis, bahagia, dan dirahmati Allah.'
                 }
             ],
             GirlImages: [
@@ -121,8 +121,8 @@ export default {
             ],
             instagramUrl: [
                 {
-                    manInstagram: 'https://www.instagram.com/ega_frandika/',
-                    girlInstagram: 'https://www.instagram.com/triegas/'
+                    manInstagram: 'https://www.instagram.com/iznandar_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+                    girlInstagram: 'https://www.instagram.com/kurniabocil_1506'
                 }
             ]
         }

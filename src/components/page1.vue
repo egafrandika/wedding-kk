@@ -1,11 +1,15 @@
 <template>
     <div>
         <div class="sticky top-0 z-50">
-            <img :src="Tirai" alt="header" class="w-full fixed-top z-50">
+            <div class="py-52 py-10 rotate-180 top-[100px]">
+                <img :src="FooterBanner2" alt="footer-banner2" class="absolute bottom-5 right-0 w-full h-auto">
+                <img :src="FooterBanner3" alt="footer-banner3" class="absolute bottom-0 right-0 w-full h-auto">
+                <img :src="FooterBanner1" alt="footer-banner1" class="absolute -bottom-1 left-0 w-full h-auto">
+            </div>
         </div>
         <div class="text-wrapper">
             <h1 v-motion-pop class="text-center text-[20px] font-medium p-20 max-sm:p-5 mx-auto max-sm:w-60 font-four-wedding text-gray-900">
-                We invited you to celebrate our Wedding Ceremony
+                Dengan penuh sukacita, kami mengundang Anda untuk hadir dan merayakan hari bahagia kami.
             </h1>
         </div>
         <div class="w-full relative overflow-hidden">
@@ -13,21 +17,21 @@
                 <img :src="Image1" alt="image1" class="object-cover h-full w-full rounded-[200px]">
             </div>
             <div class="p-5 text-center relative z-50">
-                <h1 v-motion-slide-right class="font-second-wedding text-[50px]">Ega & Dika</h1>
+                <h1 v-motion-slide-right class="font-second-wedding text-[50px]">Kurnia & Kandar</h1>
                 <CountdownWedding v-motion-slide-left/>
                 <div class="animate-pulse">
                     <div v-motion-slide-bottom class="p-6">
                         <add-to-calendar-button 
                             class="bg-[#442B1B] w-fit mx-auto rounded-[8px] flex flex-row items-center shadow-lg shadow-slate-800"
-                            name="Pernikahan Ega & Dika" 
-                            description="Pengingat hari pernikahan Ega & Dika" 
-                            startDate="2023-08-31"
-                            startTime="08:15"
-                            endTime="22:15"
-                            location="Tegineneng, Lampung" 
+                            name="Kurniasih & Kandar" 
+                            description="Pengingat hari pernikahan Kurnia & Kandar" 
+                            startDate="2025-12-01"
+                            startTime="09:00"
+                            endTime="22:00"
+                            location="Bumi Agung, Lampung timur" 
                             options="'Google'" 
                             timeZone="Asia/Jakarta" 
-                            iCalFileName="Pernikahan Ega & Dika"
+                            iCalFileName="Pernikahan Kurniasih & Kandar"
                             buttonStyle="date" 
                             listStyle="modal" 
                             size="1"
@@ -80,8 +84,8 @@
 </template>
 
 <script>
-import Tirai from '../assets/tirai.webp';
-import Image1 from '../assets/photo-wedding/edit/utama-page1.jpg';
+// import Tirai from '../assets/tirai.webp';
+import Image1 from '../assets/photo-wedding/edit/photo-utama.jpg';
 import Wayang1 from '../assets/wayang1.webp';
 import Wayang2 from '../assets/wayang2.webp';
 import FooterBanner1 from '../assets/footer-banner1.webp';
@@ -98,7 +102,7 @@ export default{
 
     data() {
         return {
-            Tirai,
+            // Tirai,
             Wayang1,
             Wayang2,
             Image1,
